@@ -23,8 +23,8 @@ const toy_continue_max_time = 1000 * 60 * 8; // 单词循环最大持续时间(�
 const normal_continue_max_time = 1000 * 60 * 5; // 单词循环最大持续时间(毫秒)
 const big_interval_time = 1000 * 60 * 60 * 3; // 大循环(毫秒)
 const currently_viewing_threshold_region = [0.1, 30]; // currently_viewing 阀值区间
-const X_XSRFToken = '2|781d28eb|f33d3a23e2d3b7fa875cf234ee4c31ef|1528076377';
-const Cookie = 'G_ENABLED_IDPS=google; cto_lwid=da2b45a3-156a-4c47-852e-2ff76d2e7ac4; _xsrf=2|781d28eb|f33d3a23e2d3b7fa875cf234ee4c31ef|1528076377; bsid=143ad91b0d644c779a9a7bb151550565; __utma=96128154.118071851.1528076379.1528076379.1528076379.1; __utmc=96128154; __utmz=96128154.1528076379.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmt=1; __utmb=96128154.1.10.1528076379; _timezone=-8; sweeper_uuid=39658b38ff94443b8c9235df61386ca9; sweeper_session="2|1:0|10:1528076404|15:sweeper_session|84:MzY5NjdjMjYtNjc4My00ZWUyLWJmMGUtNjc3N2I5MzY1OTNiMjAxOC0wNi0wNCAwMTo0MDowMC43MzI3NjQ=|72d10ab17b876f0faeb00caf66b3b18510a38ae3cac61a27316af12aa7cdc374"; sessionRefreshed_5ac07b89148085aec9c69413=true; __stripe_mid=e7f246fa-dc08-4aee-b037-5217f97f9351; __stripe_sid=3bffcb71-f83f-40cf-a91f-debebed2f3fa';
+const X_XSRFToken = '2|46e6760b|b6663ca4c331562f82021e0996bfb385|1531973372';
+const Cookie = '__stripe_sid=96bfdc74-1fe1-45df-8330-5823765a4be7; __stripe_mid=1151238e-5f48-498e-920b-9b2540981970; _xsrf=2|46e6760b|b6663ca4c331562f82021e0996bfb385|1531973372; bsid=fad82bf28bb2424b9c08d266e0295bd2; __utma=96128154.447076165.1531973374.1531973374.1531973374.1; __utmc=96128154; __utmz=96128154.1531973374.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmt=1; __utmb=96128154.1.10.1531973374; cto_lwid=ae4c68f4-d487-4843-99ec-4c6bf51cf51b; _timezone=-8; sweeper_uuid=0fa20cd227ca4494841ebf00da97f178; sweeper_session="2|1:0|10:1531973380|15:sweeper_session|84:MTFjNmQ0NjUtZmZkMi00ZWQ3LWFiZGUtMjg2NjM3ZjEyZjUxMjAxOC0wNy0xOSAwNDowOTozOC4wNDIxNDI=|78258f931843aced98a2da2ff1442166824f2d25ab2763fdc931d436f8c1a5e5"; sessionRefreshed_59ad16a47eae6e0907ff342a=true; G_ENABLED_IDPS=google';
 let keys = {
   pass: '' // 需要自己配置
 };
