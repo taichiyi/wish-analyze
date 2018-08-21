@@ -23,8 +23,8 @@ const toy_continue_max_time = 1000 * 60 * 8; // 单词循环最大持续时间(�
 const normal_continue_max_time = 1000 * 60 * 5; // 单词循环最大持续时间(毫秒)
 const big_interval_time = 1000 * 60 * 60 * 3; // 大循环(毫秒)
 const currently_viewing_threshold_region = [0.1, 30]; // currently_viewing 阀值区间
-const X_XSRFToken = '2|46e6760b|b6663ca4c331562f82021e0996bfb385|1531973372';
-const Cookie = '__stripe_sid=96bfdc74-1fe1-45df-8330-5823765a4be7; __stripe_mid=1151238e-5f48-498e-920b-9b2540981970; _xsrf=2|46e6760b|b6663ca4c331562f82021e0996bfb385|1531973372; bsid=fad82bf28bb2424b9c08d266e0295bd2; __utma=96128154.447076165.1531973374.1531973374.1531973374.1; __utmc=96128154; __utmz=96128154.1531973374.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmt=1; __utmb=96128154.1.10.1531973374; cto_lwid=ae4c68f4-d487-4843-99ec-4c6bf51cf51b; _timezone=-8; sweeper_uuid=0fa20cd227ca4494841ebf00da97f178; sweeper_session="2|1:0|10:1531973380|15:sweeper_session|84:MTFjNmQ0NjUtZmZkMi00ZWQ3LWFiZGUtMjg2NjM3ZjEyZjUxMjAxOC0wNy0xOSAwNDowOTozOC4wNDIxNDI=|78258f931843aced98a2da2ff1442166824f2d25ab2763fdc931d436f8c1a5e5"; sessionRefreshed_59ad16a47eae6e0907ff342a=true; G_ENABLED_IDPS=google';
+const X_XSRFToken = '2|bc86e05e|3db7de46c41e63d9c436189caab2e7bc|1534822497';
+const Cookie = '_xsrf=2|bc86e05e|3db7de46c41e63d9c436189caab2e7bc|1534822497; bsid=bb61a7ee14aa438994cb49c5ca006944; __utma=96128154.1983183851.1534822500.1534822500.1534822500.1; __utmc=96128154; __utmz=96128154.1534822500.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmt=1; __utmb=96128154.1.10.1534822500; cto_lwid=e3b83d40-48e0-4d90-8789-75c3d6567fc1; _timezone=-8; sweeper_uuid=31b9f7ec5d3b4495aa7fbba9f88431b4; sweeper_session="2|1:0|10:1534822510|15:sweeper_session|84:NWQ0MGQ0NjEtMWQyOC00NDYyLTk1NzktOGRjZTcwOGQzMDgxMjAxOC0wOC0yMSAwMzozNTowNS4xMTg4MzI=|f93c80be72a5798370bfd60821391915048dde163950da54f7e2aab89203602a"; sessionRefreshed_59ad16a47eae6e0907ff342a=true; G_ENABLED_IDPS=google';
 let keys = {
   pass: '' // 需要自己配置
 };
